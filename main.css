@@ -10,7 +10,7 @@ body {
 }
 
 img.scaleDown {
-  width: 20rem;
+  width: 30rem;
 }
 /*
 img.scaleDown:hover {
@@ -114,6 +114,31 @@ img.scaleDown:hover {
   border: 0.2rem solid #55aa9977;
   border-radius: 1rem;
   box-shadow: 1rem 1rem 1rem #000000aa;
+}
+
+.navUl > ul {
+  list-style-type:none;
+  display:block;
+}
+
+.navLi > li {
+  display:inline;
+  background-color: #000;
+  color: #00f;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.navLi > li > a {
+  text-decoration: none;
+}
+
+.navLi > li:hover {
+  background-color: #0ff;
+}
+
+.navLi > li > a.active {
+  text-decoration: underline red;
 }
 
 /*
